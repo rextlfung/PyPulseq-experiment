@@ -1,3 +1,7 @@
 # .seq files #
 ##############
 *.seq
+
+# pycache #
+###########
+*pycache*

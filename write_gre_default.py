@@ -144,8 +144,8 @@ def main(plot: bool, write_seq: bool, seq_filename: str = "gre_pypulseq.seq"):
     # =========
     if write_seq:
         # Prepare the sequence output for the scanner
-        seq.set_definition("FOV", [fov, fov, slice_thickness])
-        seq.set_definition("Name", "gre")
+        seq.set_definition(key="FOV", val=[fov, fov, slice_thickness])
+        seq.set_definition(key="Name",val="gre")
 
         seq.write(seq_filename)
 

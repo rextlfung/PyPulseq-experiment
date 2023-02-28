@@ -20,3 +20,5 @@
 - takes a lifetime ot run for Nx = Ny = 16 for vanilla GRE sequence
 - decided to give up on animating k-space trajectory as it provides too little value in data visualization for its computational cost
 - created viz_failed.py to house dysfunctional visualization functions
+- cloned new updates to PyPulseq github but there were several bugs as well as removed functions :(
+- realized that seq2ge interpolates .seq files to toppe files, which can exceed system limits defined when creating the sequence in pulseq
